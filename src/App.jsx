@@ -6,7 +6,7 @@ import Trend from "./Components/Trend";
 import Items from "./Components/Items";
 import Petey from "./Components/Petey";
 import Page from "./Components/Page";
-import Samuel from "./Components/samuel";
+import Mor from "./Components/Mor";
 import Service from "./Components/Service";
 import Input from "./Components/Input";
 import Latest from "./Components/Latest";
@@ -34,7 +34,7 @@ export default function App() {
       </div>
       <div className="han">
         <h6>Latest News</h6>
-        <Samuel />
+        <Mor />
       </div>
       <div>
         <Service />
