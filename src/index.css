@@ -1,0 +1,249 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.viva {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  padding: 15px;
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+}
+header {
+  display: flex;
+  gap: 20px;
+}
+menu {
+  display: flex;
+  gap: 20px;
+}
+.pe {
+  border-right: 1px solid red;
+}
+.de {
+  border-right: 1px solid red;
+}
+
+.re {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+  padding: 5px;
+  font-size: 13px;
+}
+.re a {
+  color: yellow;
+  text-decoration: underline;
+}
+.cla {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  cursor: pointer;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.po {
+  position: relative;
+  top: 40%;
+  left: 60%;
+  width: 22%;
+  align-items: center;
+  gap: 10px;
+}
+h1 {
+  font-size: 3rem;
+  color: red;
+}
+h2 {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+li a {
+  color: white;
+  text-decoration: underline;
+  padding: 10px;
+  background: black;
+  position: absolute;
+  left: 34%;
+  border-radius: 5px 0 5px 0;
+}
+
+.tre {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  cursor: pointer;
+}
+.emt {
+  background: red;
+  height: 2px;
+  width: 3%;
+  position: absolute;
+  left: 65%;
+}
+
+.item-list {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.got {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40%;
+}
+.got img {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px;
+}
+h6 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+.han {
+  background: rgb(217, 220, 223);
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+ol {
+  text-decoration-line: underline;
+}
+ol a {
+  color: black;
+}
+.mey img {
+  width: 100%;
+}
+.mey {
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+}
+.petey-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 30px;
+}
+.sev {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.sev img {
+  width: 40%;
+}
+.product-list {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+.product-list img {
+  width: 80%;
+}
+.pag:hover {
+  background: gray;
+}
+
+.put {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: black;
+  border-bottom: 1px solid white;
+}
+.cls {
+  color: white;
+  font-size: 13px;
+
+  padding: 10px;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  font-size: 13px;
+  background: white;
+}
+button {
+  padding: 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 13px;
+  position: relative;
+  bottom: 50%;
+  left: 100%;
+}
+.ty {
+  display: flex;
+  gap: 4px;
+}
+.mov {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: black;
+  color: white;
+  border-bottom: 1px solid white;
+}
+p a {
+  color: gray;
+  text-align: center;
+  padding: 14px;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: black;
+  color: white;
+}
+marquee {
+  border-bottom: 1px solid white;
+}

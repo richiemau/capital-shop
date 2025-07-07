@@ -1,0 +1,21 @@
+import React from "react";
+import Card from "./Card";
+import { cardData } from "../data";
+
+export default function ProductList() {
+  return (
+    <div>
+      <div className="product-list">
+        {cardData.map((product, index) => (
+          <Card
+            key={index}
+            imageUrl={product.imageUrl}
+            title={product.title}
+            price={product.price}
+            description={product.description}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
