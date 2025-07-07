@@ -1,11 +1,11 @@
 import React from "react";
 import File from "./File";
-import { ser } from "../Components/ser";
+import { Ser } from "../Components/Ser";
 export default function Service() {
   return (
     <div>
       <div className="sev">
-        {ser.map((Service, index) => (
+        {Ser.map((Service, index) => (
           <File
             key={index}
             imageUrl={Service.imageUrl}

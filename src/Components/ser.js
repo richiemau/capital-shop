@@ -4,7 +4,7 @@ import ma from "../../public/assets/images/services2.svg";
 import ve from "../../public/assets/images/services3.svg";
 import ye from "../../public/assets/images/services4.svg";
 
-export const serData = [
+export const Ser = [
   {
     imageUrl: na,
     title: "Fast & Free Delivery",

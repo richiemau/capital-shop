@@ -1,11 +1,11 @@
 import React from "react";
 import Anke from "./Anke";
-import { samData } from "../Components/sam";
+import { Sam } from "../Components/Sam";
 export default function Mor() {
   return (
     <div>
       <div className="petey-list">
-        {samData.map((mor, index) => (
+        {Sam.map((mor, index) => (
           <Anke
             key={index}
             imageUrl={mor.imageUrl}
