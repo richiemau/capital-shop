@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "./Card";
-import { Data } from "../data";
 export default function ProductList() {
   return (
     <div>
