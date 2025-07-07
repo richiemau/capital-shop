@@ -2,7 +2,7 @@ import React from "react";
 import mag from "../../public/assets/images/redbottle.png";
 import mg from "../../public/assets/images/shoes.png";
 import me from "../../public/assets/images/greensmallbottle.png";
-export const samData = [
+export const Sam = [
   {
     imageUrl: mag,
     price:

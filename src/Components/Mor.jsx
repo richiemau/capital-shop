@@ -1,6 +1,6 @@
 import React from "react";
 import Anke from "./Anke";
-import { samData } from "./sam";
+import { samData } from "../Components/sam";
 export default function Mor() {
   return (
     <div>

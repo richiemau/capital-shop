@@ -1,7 +1,7 @@
 import img1 from "../public/assets/images/redshirt.jfif";
 import img3 from "../public/assets/images/brownbag.jfif";
 import img from "../public/assets/images/pinkoutfit.png";
-export const cardData = [
+export const Data = [
   {
     title: "men's wear",
     imageUrl: img1,

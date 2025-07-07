@@ -1,12 +1,12 @@
 import React from "react";
 import Test from "./Test";
-import { BashData } from "../Components/Bash";
+import { Bash } from "../Components/Bash";
 
 export default function Petey() {
   return (
     <div>
       <div className="petey-list">
-        {BashData.map((Petey, index) => (
+        {Bash.map((Petey, index) => (
           <Test
             key={index}
             imageUrl={Petey.imageUrl}

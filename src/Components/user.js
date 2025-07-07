@@ -3,7 +3,7 @@ import img4 from "../../public/assets/images/redquotes.png";
 import img5 from "../../public/assets/images/styledollcolor.png";
 import page from "../../public/assets/images/snowwhite.png";
 import ub from "../../public/assets/images/fakerun.png";
-export const userData = [
+export const user = [
   {
     imageUrl: img4,
     description: "Cashmere Tank + Bag",

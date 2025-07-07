@@ -1,12 +1,12 @@
 import React from "react";
 import Store from "./Store";
-import { userData } from "../Components/user";
+import { user } from "../Components/user";
 
 export default function Items() {
   return (
     <div>
       <div className="item-list">
-        {userData.map((Items, index) => (
+        {user.map((Items, index) => (
           <Store
             key={index}
             imageUrl={Items.imageUrl}
