@@ -1,6 +1,6 @@
 import React from "react";
 import react, { useState } from "react";
-import logo2 from "../../public/assets/images/logo2.png";
+import logo2 from "/assets/images/logo2.png";
 import { FaShoppingCart } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { LuUserRound } from "react-icons/lu";
-import ladyBlue from "../../public/assets/images/ladyBlue.png";
+import ladyBlue from "/assets/images/ladyBlue.png";
 export default function Capital() {
   return (
     <div>
