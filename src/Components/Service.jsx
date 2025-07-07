@@ -1,6 +1,6 @@
 import React from "react";
 import File from "./File";
-import { serData } from "./ser";
+import { serData } from "../Components/ser";
 export default function Service() {
   return (
     <div>
