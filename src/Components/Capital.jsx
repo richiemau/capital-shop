@@ -9,7 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import { LuUserRound } from "react-icons/lu";
-// import ladyBlue from "../assets/images/ladyBlue.png";
+
 export default function Capital() {
   return (
     <div>
@@ -72,7 +72,7 @@ export default function Capital() {
       <div
         className="banner"
         style={{
-          backgroundImage: `url(/assets/images/ladyBlue.png)`,
+          backgroundImage: url("/assets/images/ladyBlue.png"),
           backgroundSize: "cover",
           height: "366px",
           backgroundRepeat: "no-repeat",
