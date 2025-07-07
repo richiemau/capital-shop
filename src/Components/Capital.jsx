@@ -74,6 +74,7 @@ export default function Capital() {
         style={{
           backgroundImage: `url(/assets/images/ladyblue.png)`,
           backgroundSize: "cover",
+          width: "100%",
           height: "366px",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
