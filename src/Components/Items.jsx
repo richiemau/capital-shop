@@ -1,6 +1,6 @@
 import React from "react";
 import Store from "./Store";
-import { User } from "../Components/User";
+import { User } from "./User";
 
 export default function Items() {
   return (

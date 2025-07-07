@@ -1,6 +1,6 @@
 import React from "react";
 import File from "./File";
-import { Ser } from "../Components/Ser";
+import { Ser } from ".Ser";
 export default function Service() {
   return (
     <div>

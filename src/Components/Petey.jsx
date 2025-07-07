@@ -1,6 +1,6 @@
 import React from "react";
 import Test from "./Test";
-import { Bash } from "../Components/Bash";
+import { Bash } from ".Bash";
 
 export default function Petey() {
   return (

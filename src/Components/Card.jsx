@@ -1,5 +1,5 @@
 import React from "react";
-import { Data } from "../Components/Data";
+import { Data } from "./Data";
 export default function Card({ imageUrl, title, price, amount, description }) {
   return (
     <div
