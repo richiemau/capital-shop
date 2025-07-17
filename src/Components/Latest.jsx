@@ -7,7 +7,7 @@ export default function Latest() {
         <div className="meg">
           <img src="../public/assets/images/logo2.png" alt="Company Logo" />
         </div>
-        <span className="un">
+        <div className="un">
           <p className="ba">Shop Men</p>
           <p>
             <a href="#">Clothing Fashion</a>
@@ -24,7 +24,7 @@ export default function Latest() {
           <p>
             <a href="#">Formal</a>
           </p>
-        </span>
+        </div>
         <div className="ol">
           <p className="ba">Shop women</p>
           <p>
